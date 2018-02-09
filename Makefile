@@ -8,3 +8,6 @@ libsess3.so: sess3.c sess3.h
 
 uselib: uselib.c libsess3.so
 	gcc -L$(PWD) uselib.c -o uselib -lsess3
+
+tryshared: tryshared.c libsess3.so
+	gcc -L$(PWD) tryshared.c -o tryshared -lsess3
