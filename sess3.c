@@ -1,7 +1,7 @@
 #include "sess3.h"
 
 void sayHi(){
-  printf("Hi 361\n");
+  printf("361 Rocks\n");
 }
 
 int multiply(int x, int y) {
